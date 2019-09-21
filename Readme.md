@@ -4,7 +4,8 @@ Welcome to the free tutorial on Vagrant.
 vagrant is internally a ruby command, you can modify the vagrant tool if you know Ruby.
 
 What is use of vagrant?
-capable of speaking to hypervisors and get environments created.
+
+Capable of speaking to hypervisors and get environments created.
 
 Package Managers for installing the required softwares:
 For windows: use chocolatey package manager 
@@ -39,6 +40,12 @@ vagrant ssh → connect to vm
 vagrant halt → shutdown
 vagrant reload → reboot/restart
 vagrant destroy → delete vm
+vagrant status → to check status of machine
+
+vagrant up --provider vmware #to change from default vbox to vmware.If the image supports the hypervisor provided.
+vagrant up --provider hyperv
+
+For existing machine, to apply changes, use "vagrant reload"
 
 All above commands from same working directory.
 

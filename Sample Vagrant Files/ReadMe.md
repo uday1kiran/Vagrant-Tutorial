@@ -9,6 +9,10 @@ Modified 2nd vagrant file with RAM information added.
 5. staticip(Private)+portforwarding: When we create private IP with VM, it won't be accessible from other network machines, but we can use he host machine's IP address using port forwarding.
 
 There is shared folders option to add a shared folder between host and VM.
+
+To disable automatic folder sync, in vagrant file update below line.:
+config.vm.synced_folder ".", "/vagrant", disabled: true
+
 Lists all drives:
 #sudo df -h
 

@@ -12,3 +12,10 @@ There is shared folders option to add a shared folder between host and VM.
 Lists all drives:
 #sudo df -h
 
+6.commands execution: inline provisioning
+provisioning:
+------
+executing the shell commands or scripts once the machine is ready.
+config.vm.provision
+Inline: commands written inside the vagrant file.
+

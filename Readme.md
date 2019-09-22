@@ -57,6 +57,8 @@ https://app.vagrantup.com/browse/search
 
 When you run vagrant init, it will create a vagrant file, this is the file where we keep all the configurations related to a machine.
 
+vagrant box list #To list all boxes downloaded
+
 
 
 
